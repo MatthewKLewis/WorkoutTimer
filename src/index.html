@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workout Clock</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Workout Timer</h1>
+    <marquee direction="left">
+      Next up... 20 push-ups, 20 squats, 20 sit-ups
+    </marquee>
+    <img id="pic" src="./assets/pu.png" />
+    <div id="clock">
+      <span style="text-align: center"> 00:00:00 </span>
+    </div>
+    <div class="button-row">
+      <button id="complete-button" onclick="logWorkout()">Complete</button>
+      <button id="mute-button" onclick="mute()">Mute</button>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "workouttimer",
+  "version": "1.0.0",
+  "main": "index.html",
+  "window": {
+    "title": "Workout Timer",
+    "icon": "./assets/pu.png",
+    "toolbar": false,
+    "width": 300,
+    "height": 300,
+    "fullscreen": false,
+    "frame": false,
+    "transparent": true
+  },
+  "chromium-args": "--no-user-gesture-required"
+}

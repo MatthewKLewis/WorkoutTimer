@@ -1,0 +1,64 @@
+:root {
+    --dark: #212121;
+    --darker: #151515;
+    --darkest: #111;
+    --light: #e0e0e0;
+
+    --clear: rgba(0,0,0,0)
+
+    --modal: rgba(100, 100, 100, 0.85);
+
+    --palette: rgb(185, 146, 62);
+}
+
+* {
+    margin: 0;
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden;
+    background-color: var(--dark);
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 1em;
+}
+
+h1 {
+  text-align: center;
+}
+
+#pic {
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+
+#clock {
+  position: fixed;
+  width: 100%;
+  bottom: 2em;
+  font-size: 2em;
+  text-align: center;
+  background-color: var(--clear);
+}
+
+.button-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+marquee {
+    background-color: var(--darker);
+}
+
+button {
+    margin: 0;
+    width: 128px;
+    height: 32px;
+    border: none;
+    background-color: var(--darker);
+} 
+button:hover {background-color: var(--darkest);}
+button:disabled {color: grey; background-color: var(--dark);}
