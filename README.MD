@@ -1,3 +1,3 @@
-![Push-ups](./screen.png)
+![Push-ups](./screen.PNG)
 
 Workout timer using NW.JS
